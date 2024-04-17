@@ -1,0 +1,65 @@
+body {
+    background-color: rgb(167, 161, 2);
+}
+
+h1 {
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.quiz {
+    width: 50%;
+    height: 400px;
+    background-color: rgba(82, 79, 2, 0.651);
+    margin-left: 250px;
+}
+
+input {
+    margin: 25px;
+}
+
+#semail{
+    border-radius: 9px;
+    padding:2px ;
+
+}
+
+#lemail{
+    border-radius: 9px;
+    padding:2px ;
+
+
+}
+#lpass{
+    border-radius: 9px;
+    padding:2px ;
+    width: 150px;
+
+
+}
+#spass{
+    border-radius: 9px;   
+     padding:2px ;
+     width: 150px;
+
+}
+
+
+
+
+#btn {
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.61) ;
+    color: #fff;
+    margin-left: 200px;
+    width: 80px;
+    padding: 5px;
+    letter-spacing: 1px;
+}
+#sign{
+ border-radius: 5rem;   
+ background-color: black;
+ color: #fff;
+ padding: 5px;
+ width: 80px;
+}

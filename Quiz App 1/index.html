@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Quiz App</h1>
+    <h1>by Abeera Umair</h1>
+    <div class="quiz">
+        <p id="ques"></p>
+
+        <div class="opt">
+            <input onclick="clicked()" type="radio" value="1" name="options" id="">
+            <label for="" id="opt1"></label><br><br>
+
+            <input onclick="clicked()" type="radio" value="2" name="options" id="">
+            <label for="" id="opt2"></label><br><br>
+
+            <input onclick="clicked()" type="radio" value="3" name="options" id="">
+            <label for="" id="opt3"></label><br><br>
+        </div>
+
+        <button disabled id="btn" onclick="nextQ()">Next</button>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
